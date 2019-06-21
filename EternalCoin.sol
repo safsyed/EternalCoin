@@ -1,3 +1,11 @@
+/**
+ *Submitted for verification at Etherscan.io on 2019-06-20
+*/
+
+/**
+ *Submitted for verification at Etherscan.io on 2019-05-02
+*/
+
 pragma solidity ^0.4.4;
 
 contract Token {
@@ -107,10 +115,10 @@ contract EternalCoin is StandardToken {
 
     // which means the following function name has to match the contract name declared above
     function EternalCoin () {
-        balances[msg.sender] = 300000000000000000000000000;
-        totalSupply = 300000000000000000000000000;
+        balances[msg.sender] = 17000000000000000;
+        totalSupply = 17000000000000000;
         name = "EternalCoin ";
-        decimals = 18;
+        decimals = 7;
             symbol = "EIS";
         unitsOneEthCanBuy = 6000;
         fundsWallet = msg.sender;
